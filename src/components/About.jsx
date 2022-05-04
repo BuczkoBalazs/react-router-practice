@@ -1,9 +1,14 @@
-import React from 'react'
+import React from 'react';
+import Layout from './Layout';
 
-export const About = () => {
+function About () {
   return (
-    <section>
-        <h2>About</h2>
-    </section>
+    <Layout>
+        <section>
+            <h2>About</h2>
+        </section>
+    </Layout>
   )
 }
+
+export default About

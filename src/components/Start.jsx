@@ -1,9 +1,14 @@
-import React from 'react'
+import React from 'react';
+import Layout from './Layout';
 
-export const Start = () => {
+function Start() {
   return (
-    <section>
-        <h2>Welcome!</h2>
-    </section>
+    <Layout>
+        <section>
+            <h2>Welcome!</h2>
+        </section>
+    </Layout>
   )
 }
+
+export default Start
