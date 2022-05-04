@@ -4,9 +4,7 @@ import Layout from './Layout';
 function Start() {
   return (
     <Layout>
-        <section>
-            <h2>Welcome!</h2>
-        </section>
+        <h2>Welcome!</h2>
     </Layout>
   )
 }

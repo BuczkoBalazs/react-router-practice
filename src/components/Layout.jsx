@@ -2,13 +2,15 @@ import React from 'react';
 import Header from './Header';
 import Footer from './Footer';
 
-function Layout({child}) {
+function Layout({children}) {
   return (
-    <div>
-        <Header />
-            {child}
-        <Footer />
-    </div>
+    <main>
+      <Header />
+        <section>
+          {children}
+        </section>
+      <Footer />
+    </main>
   )
 }
 
